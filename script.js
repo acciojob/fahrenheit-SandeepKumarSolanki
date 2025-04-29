@@ -1,9 +1,7 @@
 function toFahrenheit(celsius) {
  // Write your code here
 	celsius = +celsius
-	if(celsius > -273.15°C ){
-		return (32 + celsius );
-	}	
+	return (celsius+32).toFixed(2);
 }
 
 // Do not change the code below
